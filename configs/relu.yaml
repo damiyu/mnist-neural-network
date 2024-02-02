@@ -1,0 +1,12 @@
+# Multi-layer, g(a) = ReLU(a), no regularization, no momentum.
+layer_specs: [784, 128, 10]
+activation: "ReLU"
+learning_rate: 0.0001
+batch_size: 128
+epochs: 110
+early_stop: True
+early_stop_epoch: 5
+L1_penalty: 0
+L2_penalty: 0
+momentum: False
+momentum_gamma: 0.9

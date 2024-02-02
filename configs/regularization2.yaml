@@ -1,0 +1,12 @@
+# Multi-layer, g(a) = sigmoid(a), regularization Ridge (L2), no momentum.
+layer_specs: [784, 128, 10]
+activation: "sigmoid"
+learning_rate: 0.0001
+batch_size: 128
+epochs: 60
+early_stop: True
+early_stop_epoch: 3
+L1_penalty: 0
+L2_penalty: 0.0001
+momentum: False
+momentum_gamma: 0.9

@@ -1,0 +1,12 @@
+# Single-layer, no regularization, and no momentum.
+layer_specs: [784, 10]
+activation: None
+learning_rate: 0.001
+batch_size: 128
+epochs: 100
+early_stop: True
+early_stop_epoch: 3
+L1_penalty: 0
+L2_penalty: 0
+momentum: False
+momentum_gamma: 0.9

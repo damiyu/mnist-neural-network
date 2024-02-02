@@ -1,0 +1,12 @@
+# Multi-layer, g(a) = tanh(a), no regularization, yes momentum.
+layer_specs: [784, 128, 10]
+activation: "tanh"
+learning_rate: 0.001
+batch_size: 128
+epochs: 100
+early_stop: True
+early_stop_epoch: 5
+L1_penalty: 0
+L2_penalty: 0
+momentum: True
+momentum_gamma: 0.9
